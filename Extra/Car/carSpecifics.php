@@ -37,7 +37,7 @@
         /**
          * Set the value of displacement
          */
-        public function setDisplacement($displacement): self
+        public function setDisplacement($displacement)
         {
                 $this->displacement = $displacement;
 
@@ -55,7 +55,7 @@
         /**
          * Set the value of weelMateial
          */
-        public function setWeelMateial($weelMateial): self
+        public function setWeelMateial($weelMateial)
         {
                 $this->weelMateial = $weelMateial;
 
@@ -73,7 +73,7 @@
         /**
          * Set the value of color
          */
-        public function setColor($color): self
+        public function setColor($color)
         {
                 $this->color = $color;
 
@@ -91,7 +91,7 @@
         /**
          * Set the value of fuel
          */
-        public function setFuel($fuel): self
+        public function setFuel($fuel)
         {
                 $this->fuel = $fuel;
 
@@ -109,7 +109,7 @@
         /**
          * Set the value of gearbox
          */
-        public function setGearbox($gearbox): self
+        public function setGearbox($gearbox)
         {
                 $this->gearbox = $gearbox;
 
@@ -127,7 +127,7 @@
         /**
          * Set the value of numbersOfOwners
          */
-        public function setNumbersOfOwners($numbersOfOwners): self
+        public function setNumbersOfOwners($numbersOfOwners)
         {
                 $this->numbersOfOwners = $numbersOfOwners;
 
@@ -145,7 +145,7 @@
         /**
          * Set the value of mileage
          */
-        public function setMileage($mileage): self
+        public function setMileage($mileage)
         {
                 $this->mileage = $mileage;
 
@@ -163,7 +163,7 @@
         /**
          * Set the value of doors
          */
-        public function setDoors($doors): self
+        public function setDoors($doors)
         {
                 $this->doors = $doors;
 
@@ -181,7 +181,7 @@
         /**
          * Set the value of yearOfPurchase
          */
-        public function setYearOfPurchase($yearOfPurchase): self
+        public function setYearOfPurchase($yearOfPurchase)
         {
                 $this->yearOfPurchase = $yearOfPurchase;
 
@@ -199,7 +199,7 @@
         /**
          * Set the value of yearOfRelease
          */
-        public function setYearOfRelease($yearOfRelease): self
+        public function setYearOfRelease($yearOfRelease)
         {
                 $this->yearOfRelease = $yearOfRelease;
 

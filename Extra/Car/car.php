@@ -1,12 +1,17 @@
 <?php
 
+
     require_once "carSpecifics.php";
+
+    
 
     class Car {
 
         public $brand;
         public $model;
         public $price;
+        public $result;
+        
 
         public function __construct($_brand, $_model, $_price) {
             $this->brand = $_brand;
@@ -25,7 +30,7 @@
         /**
          * Set the value of brand
          */
-        public function setBrand($brand): self
+        public function setBrand($brand)
         {
                 $this->brand = $brand;
 
@@ -43,13 +48,13 @@
         /**
          * Set the value of model
          */
-        public function setModel($model): self
+        public function setModel($model)
         {
                 $this->model = $model;
 
                 return $this;
         }
-
+        
         /**
          * Get the value of price
          */
@@ -57,16 +62,24 @@
         {
                 return $this->price;
         }
+    
 
         /**
          * Set the value of price
          */
-        public function setPrice($price): self
+        public function setPrice($checkPrice)
         {
-                $this->price = $price;
-
-                return $this;
+            if(is_numeric($checkPrice)) {
+                return $this->price = $checkPrice;
+                echo $this->price;
+            } else {
+                echo 'not a number';
+            }
         }
+        
     }
+
+
+var_dump($result);
 
 ?>
