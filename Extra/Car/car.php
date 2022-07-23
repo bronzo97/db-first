@@ -80,6 +80,4 @@
     }
 
 
-var_dump($result);
-
 ?>
